@@ -17,6 +17,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "test-lib-a": [
+        "dist/test-lib-a"
+      ],
+      "test-lib-a/*": [
+        "dist/test-lib-a/*"
+      ],
+      "test-lib-b": [
+        "dist/test-lib-b"
+      ],
+      "test-lib-b/*": [
+        "dist/test-lib-b/*"
+      ]
+    }
   }
 }
